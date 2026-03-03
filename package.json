@@ -1,0 +1,26 @@
+{
+  "name": "discord-economy-bot",
+  "version": "1.0.0",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.0.0",
+    "@discordjs/rest": "^2.0.0",
+    "discord-api-types": "^0.37.0"
+  }
+}
+```
+4. Click **Commit changes**
+
+---
+
+**Step 4 — Create `.gitignore`**
+1. Click **Add file → Create new file**
+2. Name it `.gitignore`
+3. Paste this:
+```
+node_modules/
+economy.json
+.env
